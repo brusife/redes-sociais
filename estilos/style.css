@@ -1,2 +1,53 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+:root {
+    --fontetitulo: "Zeyada", cursive;
+    --fontesubtitulo: "Poiret One", sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    height: 100vh;
+    position: relative;
+}
+
+section#central {
+    text-align: center;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background: black url(../imagens/fundo1.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+section#central h1 {
+    font-size: 2.5em;
+    font-family: var(--fontesubtitulo);
+    font-weight: bolder;
+    padding: 5px;
+}
+
+section#central h2 {
+    font-size: 1.7em;
+    font-family: var(--fontesubtitulo);
+    font-weight: lighter;
+}
+
+section#central h3 {
+    font-size: 1.5em;
+    font-family: var(--fontesubtitulo);
+    padding: 30px;
+}
+
+section#central a {
+    padding: 20px;
+}
